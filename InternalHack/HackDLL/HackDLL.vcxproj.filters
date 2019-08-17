@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="procmem">
+      <UniqueIdentifier>{a8c07190-6408-4295-a585-83f638646bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hacks">
+      <UniqueIdentifier>{c1dc8e35-864a-4881-b5af-9532dd0807db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{45654596-9514-4302-872e-ea6d8a210aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{c9d9288c-1f7d-40f9-866e-c6f3fb9d5025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="precompiled">
+      <UniqueIdentifier>{4ae08ff9-f4ce-477a-ab38-7fea94e3f00c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProcessHacker.h">
+      <Filter>procmem</Filter>
+    </ClInclude>
+    <ClInclude Include="InfiniteAmmo.h">
+      <Filter>hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="NoRecoil.h">
+      <Filter>hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="InfiniteHealth.h">
+      <Filter>hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractHack.h">
+      <Filter>hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="HackError.h">
+      <Filter>hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardInput.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="HackMain.h">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProcessHacker.cpp">
+      <Filter>procmem</Filter>
+    </ClCompile>
+    <ClCompile Include="InfiniteAmmo.cpp">
+      <Filter>hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="NoRecoil.cpp">
+      <Filter>hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="InfiniteHealth.cpp">
+      <Filter>hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractHack.cpp">
+      <Filter>hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="HackError.cpp">
+      <Filter>hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardInput.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="HackMain.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>precompiled</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
