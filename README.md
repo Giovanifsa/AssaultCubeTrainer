@@ -1,2 +1,2 @@
 # AssaultCubeTrainer
-Assault cube private trainer
+Assault cube test trainer
